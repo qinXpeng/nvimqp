@@ -1,0 +1,2 @@
+# nvimqp
+my-nvim-config
