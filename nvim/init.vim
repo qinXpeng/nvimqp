@@ -18,6 +18,9 @@ lua require('plugins-config.telescope')
 lua require('lsp-config.lspinstall')
 lua require('lsp-config.lspconfig')
 lua require('plugins-config.cmp-conf')
+lua require('plugins-config.outline')
+lua require('nvim-autopairs').setup{}
+lua require('plugins-config.lspsaga')
 
 syntax on
 let g:indent_blankline_char_list = ['|']

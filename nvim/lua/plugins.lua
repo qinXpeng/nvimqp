@@ -63,4 +63,10 @@ return require('packer').startup(function()
 			{"lukas-reineke/cmp-under-comparator"}, -- 让补全结果的排序更加智能
 		}
 	}
+	use {
+	'simrat39/symbols-outline.nvim'
+	}
+	use 'glepnir/lspsaga.nvim'
+	use 'p00f/nvim-ts-rainbow'
+	use 'windwp/nvim-autopairs'
 end)

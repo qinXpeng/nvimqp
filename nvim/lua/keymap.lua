@@ -26,4 +26,11 @@ map("n", "<leader>tv", ":ToggleTerm direction=vertical<CR>", opt)
 -- telescope
 map("n", "<leader>ff", ":Telescope find_files<CR>", opt)
 map("n", "<leader>fh", ":Telescope help_tags<CR>", opt)
+map("n", "<leader>fc", ":lua require'telescope.builtin'.current_buffer_fuzzy_find{}<CR>",opt)
+
+map("n",";lm",":SymbolsOutlineOpen<CR>",opt)
+
+
+map("n","gr",":Lspsaga lsp_finder<CR>",opt)
+map("n","gv",":Lspsaga rename<CR>",opt)
 
