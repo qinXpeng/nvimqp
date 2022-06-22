@@ -1,4 +1,5 @@
 
+lua require('plugins-config.packer')
 lua require('basic')
 
 lua require('plugins')
@@ -21,7 +22,6 @@ lua require('plugins-config.cmp-conf')
 lua require('plugins-config.outline')
 lua require('nvim-autopairs').setup{}
 lua require('plugins-config.lspsaga')
-lua require('plugins-config.packer')
 
 syntax on
 let g:indent_blankline_char_list = ['|']
