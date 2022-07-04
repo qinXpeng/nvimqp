@@ -1,8 +1,8 @@
+
 return require('packer').startup(function()
 	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
-	-- gruvbox theme
-	use 'sainnhe/sonokai'
+
 	use {
 		'kyazdani42/nvim-tree.lua',
 		requires = {
@@ -69,4 +69,6 @@ return require('packer').startup(function()
 	use 'glepnir/lspsaga.nvim'
 	use 'p00f/nvim-ts-rainbow'
 	use 'windwp/nvim-autopairs'
+
+	use 'tiagovla/tokyodark.nvim'
 end)

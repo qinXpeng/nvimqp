@@ -22,16 +22,15 @@ lua require('plugins-config.outline')
 lua require('nvim-autopairs').setup{}
 lua require('plugins-config.lspsaga')
 
+lua require('color-config.tokyodark')
+
 syntax on
 let g:indent_blankline_char_list = ['|']
 let g:indent_blankline_indent_level = 4
 
 " windows clip
-map <C-A> ggvG : !/mnt/c/Windows/System32/clip.exe<cr>u
-map <C-c> : !/mnt/c/Windows/System32/clip.exe<cr>u
+"map <C-A> ggvG : !/mnt/c/Windows/System32/clip.exe<cr>u
+"map <C-c> : !/mnt/c/Windows/System32/clip.exe<cr>u
 
 set background=dark
-"let g:sonokai_style = 'maia'
-"let g:sonokai_better_performance = 1
-let g:material_style = "oceanic"
-colorscheme  material "sonokai
+
