@@ -1,4 +1,5 @@
 
+lua require('plugins-config.packer')
 lua require('basic')
 
 lua require('plugins')
