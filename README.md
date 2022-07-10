@@ -1,6 +1,5 @@
 # nvimqp
 my-nvim-config
 
-nvim/ini.vim
+nvim/ini.lua
 
-![nvim](./vim1.png)
