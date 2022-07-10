@@ -29,3 +29,6 @@ vim.opt.clipboard = "unnamedplus"
 vim.o.autoindent = true
 vim.opt.termguicolors = true
 vim.o.wrap = true
+
+-- windows clip 
+-- vim.cmd("autocmd TextYankPost * if v:event.operator ==# 'y' | call system('/mnt/c/Windows/System32/clip.exe', @0) | endif")

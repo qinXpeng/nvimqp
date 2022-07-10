@@ -35,3 +35,5 @@ map("n",";lm",":SymbolsOutlineOpen<CR>",opt)
 map("n","gr",":Lspsaga lsp_finder<CR>",opt)
 map("n","gv",":Lspsaga rename<CR>",opt)
 
+map("n","gb",":set mouse-=a<CR>",opt)
+map("n","gn",":set mouse=a<CR>",opt)

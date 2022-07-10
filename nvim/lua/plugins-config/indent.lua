@@ -5,3 +5,5 @@ require('indent_blankline').setup({
 })
 
 vim.opt.listchars:append("eol:↴")
+vim.g.indent_blankline_char_list={'|'}
+vim.g.indent_blankline_indent_level=4
