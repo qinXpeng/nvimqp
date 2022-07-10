@@ -24,6 +24,7 @@ lua require('nvim-autopairs').setup{}
 lua require('plugins-config.lspsaga')
 
 lua require('color-config.tokyodark')
+lua require('plugins-config.cursorline')
 
 syntax on
 let g:indent_blankline_char_list = ['|']

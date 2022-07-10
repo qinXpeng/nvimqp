@@ -71,4 +71,6 @@ return require('packer').startup(function()
 	use 'windwp/nvim-autopairs'
 
 	use 'tiagovla/tokyodark.nvim'
+
+	use 'yamatsum/nvim-cursorline'
 end)
